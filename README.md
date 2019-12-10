@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-egg-etcd --save
+$ npm i egg-etcd --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-egg-etcd --save
 // {app_root}/config/plugin.js
 exports.eggEtcd = {
   enable: true,
-  package: 'egg-egg-etcd',
+  package: 'egg-etcd',
 };
 ```
 
@@ -45,6 +45,15 @@ exports.eggEtcd = {
 ```js
 // {app_root}/config/config.default.js
 exports.eggEtcd = {
+  hosts: [
+    'your-etcd-cluster1.host.com',
+    'your-etcd-cluster2.host.com',
+    'your-etcd-cluster3.host.com',
+  ],
+  auth: {
+    username: 'your_user_name',
+    password: 'your_password',
+  },
 };
 ```
 
@@ -52,7 +61,28 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+```javascript
+// app.js
+
+// get value
+app.etcd.get('foo').string().then(value => {
+  console.log('foo value is:', value);
+});
+
+// watch value
+app.etcd
+      .watch()
+      .key('bar')
+      .create()
+      .then(watcher => {
+        watcher.on('put', res => {
+          console.log('bar value is:', res.value);
+        });
+      });
+```
+
+## More Info
+This plugin is based on [Etcd3](https://mixer.github.io/etcd3/classes/index_.etcd3.html), you can read Etcd3 document for more info.
 
 ## Questions & Suggestions
 
