@@ -44,6 +44,10 @@
   "ci": {
     "version": "8, 10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-redis.git"
+  },
   "author": "wangchong@guazi.com",
   "license": "MIT"
 }
