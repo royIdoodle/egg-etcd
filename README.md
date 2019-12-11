@@ -1,4 +1,4 @@
-# egg-egg-etcd
+# egg-etcd
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-egg-etcd.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-egg-etcd
-[travis-image]: https://img.shields.io/travis/eggjs/egg-egg-etcd.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-egg-etcd
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-egg-etcd.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-egg-etcd?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-egg-etcd.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-egg-etcd
-[snyk-image]: https://snyk.io/test/npm/egg-egg-etcd/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-egg-etcd
-[download-image]: https://img.shields.io/npm/dm/egg-egg-etcd.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-egg-etcd
+[npm-image]: https://img.shields.io/npm/v/egg-etcd.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-etcd
+[travis-image]: https://img.shields.io/travis/royIdoodle/egg-etcd.svg?style=flat-square
+[travis-url]: https://travis-ci.org/royIdoodle/egg-etcd
+[codecov-image]: https://img.shields.io/codecov/c/github/royIdoodle/egg-etcd.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/royIdoodle/egg-etcd?branch=master
+[david-image]: https://img.shields.io/david/royIdoodle/egg-etcd.svg?style=flat-square
+[david-url]: https://david-dm.org/royIdoodle/egg-etcd
+[snyk-image]: https://snyk.io/test/npm/egg-etcd/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-etcd
+[download-image]: https://img.shields.io/npm/dm/egg-etcd.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-etcd
 
 <!--
 Description here.
